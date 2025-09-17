@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PT Sanjaya - Pilih Jabatan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="logo"></div>
+    <h1 class="title">Selamat datang di perusahaan <p><span class="highlight">PT SANJAYA</span></h1>
+    
+    <i><p class="subtitle">Silakan pilih jabatan Anda untuk melanjutkan:</p></i>
+
+    <form id="formJabatan" class="form">
+      <div class="jabatan-options">
+        <ul>
+        <label><input type="radio" name="jabatan" value="CEO" required /> <span class="jabatan-label">CEO</span></label>
+        <label><input type="radio" name="jabatan" value="Direktur" /> <span class="jabatan-label">Direktur</span></label>
+        <label><input type="radio" name="jabatan" value="Bendahara" /> <span class="jabatan-label">Bendahara</span></label>
+        <label><input type="radio" name="jabatan" value="Asisten Pribadi" /> <span class="jabatan-label">Asisten Pribadi</span></label>
+        <label><input type="radio" name="jabatan" value="Karyawan" /> <span class="jabatan-label">Karyawan</span></label>
+        </ul>
+      </div>
+
+      <button type="submit" class="btn-submit">Pilih</button>
+    </form>
+  </div>
+
+  <script src="script-index.js"></script>
+</body>
+</html>
